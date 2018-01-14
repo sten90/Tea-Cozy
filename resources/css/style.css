@@ -1,5 +1,6 @@
 /* PROBLEMS:
   MISSION TEXT should have smaller top and smaller black margin form the image
+  TEA OF THE MONTH problem with line spacing
 
 */
 
@@ -57,4 +58,24 @@ header img {
 
 .mission_text {
   background-color: black;
+}
+
+
+/* TEA OF THE MONTH */
+.featured_tea {
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+}
+
+.featured_tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.featured_tea_description {
+  display: flex;
+  justify-content: space-around;
+  width: 1000px;
+  padding-top: 10px;
 }
