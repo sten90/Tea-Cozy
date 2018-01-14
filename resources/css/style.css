@@ -1,0 +1,29 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: fixed;
+  height: 69px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header img {
+  padding-left: 10px;
+  height: 50px;
+}
+
+.menubuttons nav a {
+  text-decoration: underline;
+  color: seashell;
+}
