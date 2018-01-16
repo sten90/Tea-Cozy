@@ -1,7 +1,7 @@
 /* PROBLEMS:
   MISSION TEXT should have smaller top and smaller black margin form the image
   TEA OF THE MONTH problem with line spacing
-  THE HEADER IS NOT FIXED
+  THE HEADER IS FIXED BUT THERE IS SPACE AND THE LEFT, RIGHT AND TOP
 */
 
 
@@ -19,12 +19,13 @@ body {
 header {
   position: fixed;
   height: 69px;
-}
-
-.menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: black;
 }
 
 header img {
@@ -40,6 +41,7 @@ header img {
 
 /* CONTENT */
 .content {
+  padding-top: 70px;
   display: flex;
   flex-direction: column;
   align-items: center;
