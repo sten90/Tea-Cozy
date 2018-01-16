@@ -14,11 +14,10 @@ body {
   text-align: center;
 }
 
-
 /* HEADER */
 
 header {
-  display: fixed;
+  position: fixed;
   height: 69px;
 }
 
