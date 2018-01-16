@@ -139,3 +139,9 @@ UTILIZZARE LA VECCHIA CLASSE PIU' UN'ALTRA CHE FACCIA UN OVERRIDE DELLA LARGHEZZ
   height: 200px;
   padding-top: 10px;
 }
+
+/* FOOTER */
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
