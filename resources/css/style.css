@@ -1,7 +1,7 @@
 /* PROBLEMS:
   MISSION TEXT should have smaller top and smaller black margin form the image
   TEA OF THE MONTH problem with line spacing
-
+  THE HEADER IS NOT FIXED
 */
 
 
@@ -100,4 +100,39 @@ UTILIZZARE LA VECCHIA CLASSE PIU' UN'ALTRA CHE FACCIA UN OVERRIDE DELLA LARGHEZZ
   justify-content: space-around;
   width: 660px;
   padding-top: 10px;
+}
+
+/* LOCATIONS */
+.locations {
+  display: flex;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  flex-direction: column;
+  width: 1200px;
+  position: relative;
+  margin-top: 70px;
+  padding-top: 50px;
+}
+
+.cities {
+  display: flex;
+  justify-content: center;
+}
+
+.city {
+  opacity: 1;
+  width: 300px;
+  background-color: black;
+  margin: 20px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+/* FOOTER */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
