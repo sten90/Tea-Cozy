@@ -12,6 +12,8 @@ body {
   background-color: black;
   opacity: 0.9;
   text-align: center;
+  margin-top:0;
+  padding-top:0;
 }
 
 /* HEADER */
@@ -23,8 +25,6 @@ header {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  margin-left: 10px;
-  margin-right: 10px;
   background-color: black;
 }
 
@@ -36,6 +36,7 @@ header img {
 .menubuttons nav a {
   text-decoration: underline;
   color: seashell;
+  padding-right: 10px;
 }
 
 
