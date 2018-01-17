@@ -1,10 +1,3 @@
-/* PROBLEMS:
-  MISSION TEXT should have smaller top and smaller black margin form the image
-  TEA OF THE MONTH problem with line spacing
-  THE HEADER IS FIXED BUT THERE IS SPACE AND THE LEFT, RIGHT AND TOP
-*/
-
-
 body {
   font-family: Helvetica;
   font-size: 22px;
@@ -16,7 +9,7 @@ body {
   padding-top:0;
 }
 
-/* HEADER */
+/* Header */
 
 header {
   position: fixed;
@@ -40,7 +33,7 @@ header img {
 }
 
 
-/* CONTENT */
+/* Content */
 .content {
   padding-top: 70px;
   display: flex;
@@ -48,7 +41,7 @@ header img {
   align-items: center;
 }
 
-/* OUR MISSION */
+/* Our mission */
 .mission {
   display: flex;
   flex-direction: column;
@@ -56,6 +49,12 @@ header img {
   height: 700px;
   width: 1200px;
   justify-content: center;
+  margin-bottom: 65px;
+}
+
+h2#featured_tea_id {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 .mission_text {
@@ -63,7 +62,7 @@ header img {
 }
 
 
-/* TEA OF THE MONTH */
+/* Tea of the Month */
 .featured_tea {
   display: flex;
   width: 1000px;
@@ -81,9 +80,6 @@ header img {
   width: 1000px;
   padding-top: 10px;
 }
-
-/* SI PUO' RAZIONALIZZARE QUANTO SEGUE ANZICHE' CREANDO UNA NUOVA CLASSE A PARTE CHE E RIDONDANTE CON QUELLE DELLA PRIMA RIGA DI IMMAGINI,
-UTILIZZARE LA VECCHIA CLASSE PIU' UN'ALTRA CHE FACCIA UN OVERRIDE DELLA LARGHEZZA CON QUESTA RIDOTTA DI 660PX */
 
 .featured_tea2 {
   display: flex;
@@ -104,7 +100,7 @@ UTILIZZARE LA VECCHIA CLASSE PIU' UN'ALTRA CHE FACCIA UN OVERRIDE DELLA LARGHEZZ
   padding-top: 10px;
 }
 
-/* LOCATIONS */
+/* Locations */
 .locations {
   display: flex;
   background-image: url("../images/img-locations-background.jpg");
@@ -133,7 +129,7 @@ UTILIZZARE LA VECCHIA CLASSE PIU' UN'ALTRA CHE FACCIA UN OVERRIDE DELLA LARGHEZZ
   justify-content: space-around;
 }
 
-/* CONTACTS */
+/* Contacts */
 .contacts {
   display: flex;
   flex-direction: column;
@@ -142,7 +138,7 @@ UTILIZZARE LA VECCHIA CLASSE PIU' UN'ALTRA CHE FACCIA UN OVERRIDE DELLA LARGHEZZ
   padding-top: 10px;
 }
 
-/* FOOTER */
+/* Footer */
 footer {
   text-align: left;
   padding-left: 20px;
